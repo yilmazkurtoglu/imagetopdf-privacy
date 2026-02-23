@@ -1,0 +1,243 @@
+<!DOCTYPE html>
+<html lang="tr">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Destek — Image to PDF</title>
+    <style>
+        * {
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+        }
+
+        body {
+            font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Helvetica, Arial, sans-serif;
+            line-height: 1.7;
+            color: #1f2937;
+            background: #f9fafb;
+            padding: 20px;
+        }
+
+        .container {
+            max-width: 720px;
+            margin: 0 auto;
+            background: #fff;
+            border-radius: 16px;
+            padding: 40px 32px;
+            box-shadow: 0 1px 3px rgba(0, 0, 0, 0.06);
+        }
+
+        h1 {
+            font-size: 28px;
+            margin-bottom: 8px;
+            color: #111827;
+        }
+
+        .subtitle {
+            font-size: 14px;
+            color: #6b7280;
+            margin-bottom: 32px;
+        }
+
+        h2 {
+            font-size: 20px;
+            margin: 28px 0 12px;
+            color: #111827;
+        }
+
+        h3 {
+            font-size: 16px;
+            margin: 20px 0 8px;
+            color: #374151;
+        }
+
+        p,
+        li {
+            font-size: 15px;
+            color: #374151;
+            margin-bottom: 12px;
+        }
+
+        ul,
+        ol {
+            padding-left: 24px;
+            margin-bottom: 16px;
+        }
+
+        li {
+            margin-bottom: 6px;
+        }
+
+        .feature-grid {
+            display: grid;
+            grid-template-columns: repeat(auto-fit, minmax(200px, 1fr));
+            gap: 16px;
+            margin: 20px 0;
+        }
+
+        .feature-card {
+            background: #f3f4f6;
+            border-radius: 12px;
+            padding: 20px;
+            text-align: center;
+        }
+
+        .feature-card .icon {
+            font-size: 32px;
+            margin-bottom: 8px;
+        }
+
+        .feature-card h3 {
+            margin: 0 0 6px;
+            font-size: 15px;
+        }
+
+        .feature-card p {
+            font-size: 13px;
+            color: #6b7280;
+            margin: 0;
+        }
+
+        .contact-box {
+            background: #eef2ff;
+            border-radius: 12px;
+            padding: 24px;
+            text-align: center;
+            margin: 24px 0;
+        }
+
+        .contact-box a {
+            display: inline-block;
+            background: #4f46e5;
+            color: #fff;
+            text-decoration: none;
+            padding: 12px 32px;
+            border-radius: 10px;
+            font-weight: 600;
+            font-size: 15px;
+            margin-top: 12px;
+        }
+
+        a {
+            color: #4f46e5;
+        }
+
+        .faq-item {
+            margin-bottom: 20px;
+        }
+
+        .faq-item h3 {
+            color: #111827;
+        }
+
+        .footer {
+            margin-top: 40px;
+            padding-top: 20px;
+            border-top: 1px solid #e5e7eb;
+            font-size: 13px;
+            color: #9ca3af;
+        }
+    </style>
+</head>
+
+<body>
+    <div class="container">
+        <h1>Image to PDF — Destek</h1>
+        <p class="subtitle">Image to PDF'den en iyi şekilde yararlanmak için ihtiyacınız olan her şey</p>
+
+        <h2>Özellikler</h2>
+        <div class="feature-grid">
+            <div class="feature-card">
+                <div class="icon">📸</div>
+                <h3>Kamera ile Çekim</h3>
+                <p>Flaş, zoom ve ön/arka kamera desteği ile doğrudan fotoğraf çekin</p>
+            </div>
+            <div class="feature-card">
+                <div class="icon">🖼️</div>
+                <h3>Galeriden İçe Aktarma</h3>
+                <p>Fotoğraf kütüphanenizden aynı anda birden fazla görsel seçin</p>
+            </div>
+            <div class="feature-card">
+                <div class="icon">✂️</div>
+                <h3>Akıllı Kırpma</h3>
+                <p>Köşe ve kenar tutamaçlarıyla hassas belge kırpma için perspektif kırpma</p>
+            </div>
+            <div class="feature-card">
+                <div class="icon">🎨</div>
+                <h3>Görsel Filtreleri</h3>
+                <p>Tarama, gri tonlama ve manuel ayarlar dahil 8 filtre</p>
+            </div>
+            <div class="feature-card">
+                <div class="icon">✏️</div>
+                <h3>Çizim ve İmza</h3>
+                <p>Görsellerinize çizimler, notlar ve imzalar ekleyin</p>
+            </div>
+            <div class="feature-card">
+                <div class="icon">📄</div>
+                <h3>PDF Oluşturma</h3>
+                <p>Özelleştirilebilir sayfa boyutu ve kalite ile yüksek kaliteli PDF'ler oluşturun</p>
+            </div>
+        </div>
+
+        <h2>Nasıl Kullanılır</h2>
+        <ol>
+            <li><strong>Görsel ekleyin</strong> — Kamerayı kullanmak için "Fotoğraf Çek", fotoğraf kütüphanenizden
+                seçmek için "Galeriden Seç" düğmesine dokunun.</li>
+            <li><strong>Kırpın ve ayarlayın</strong> — Çekimden veya seçimden sonra, belgenizi hassas şekilde
+                çerçevelemek için perspektif kırpma aracını kullanın.</li>
+            <li><strong>Filtre uygulayın</strong> — Hazır filtreler arasından seçin veya parlaklık, kontrast, keskinlik
+                ve daha fazlası için manuel ayarları kullanın.</li>
+            <li><strong>Sıralayın ve düzenleyin</strong> — Sayfaları yeniden sıralamak için sürükleyin. Tek tek
+                görselleri düzenlemek için kırpma veya çizim simgelerine dokunun.</li>
+            <li><strong>PDF oluşturun</strong> — "PDF Oluştur"a dokunun, dosya adını, sayfa boyutunu (Otomatik/A4) ve
+                kalite ayarlarını belirleyin.</li>
+            <li><strong>Paylaşın</strong> — Tamamlanan PDF'nizi önizleyin, paylaşın veya kaydedin.</li>
+        </ol>
+
+        <h2>Sıkça Sorulan Sorular</h2>
+
+        <div class="faq-item">
+            <h3>PDF dosyalarım nereye kaydedilir?</h3>
+            <p>PDF dosyaları cihazınızdaki uygulamanın Belgeler klasörüne kaydedilir. Dosyalar uygulamasından erişebilir
+                veya doğrudan uygulama içinden paylaşabilirsiniz.</p>
+        </div>
+
+        <div class="faq-item">
+            <h3>Hangi görsel formatları destekleniyor?</h3>
+            <p>Uygulama, iOS'un işleyebildiği tüm görsel formatlarını destekler: JPEG, PNG, HEIF ve daha fazlası.</p>
+        </div>
+
+        <div class="faq-item">
+            <h3>PDF dosya boyutunu nasıl küçültebilirim?</h3>
+            <p>PDF ayarlarında "Kalite" ve "Görsel Ölçeği" kaydırıcılarını düşürün. Bu, çözünürlüğü ve sıkıştırma
+                kalitesini azaltarak daha küçük dosyalar oluşturur.</p>
+        </div>
+
+        <div class="faq-item">
+            <h3>Uygulama internet bağlantısı gerektirir mi?</h3>
+            <p>Hayır. Image to PDF tamamen çevrimdışı çalışır. Herhangi bir özelliği kullanmak için internet bağlantısı
+                gerekmez.</p>
+        </div>
+
+        <div class="faq-item">
+            <h3>Uygulama dilini nasıl değiştirebilirim?</h3>
+            <p>Sağ üst köşedeki küre simgesine (🌐) dokunarak İngilizce, Türkçe, İspanyolca, Arapça veya Hintçe
+                arasından seçim yapabilirsiniz.</p>
+        </div>
+
+        <h2>Bize Ulaşın</h2>
+        <div class="contact-box">
+            <p>Bir sorunuz, öneriniz mi var veya bir hata mı buldunuz? Sizden haber almaktan memnuniyet duyarız.</p>
+            <a href="mailto:yilmaz.kurtoglu@erdogan.edu.tr">E-posta Gönder</a>
+        </div>
+
+        <div class="footer">
+            &copy; 2026 Image to PDF. Tüm hakları saklıdır. |
+            <a href="gizlilik.html">Gizlilik Politikası</a>
+        </div>
+    </div>
+</body>
+
+</html>
